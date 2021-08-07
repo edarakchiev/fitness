@@ -5,8 +5,14 @@
     <title>Workouts</title>
 </head>
 <body>
+<a href="{% url 'create workout' %}" class="btn btn-primary">Create Workout</a>
+
 {% for workout in workouts %}
-{{ workout.description }}
+    <h1>
+        {{ workout.muscle_group }}
+        {{ workout.title }}
+        <a href="{% url 'workout details' workout.id %}" class="btn btn-primary">Details</a>
+    </h1>
 {% endfor %}
 </body>
 </html>

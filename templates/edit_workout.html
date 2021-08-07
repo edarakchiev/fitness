@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" class="furniture-form" action="{% url 'edit workout' workout.id %}" enctype="multipart/form-data">
+    {% csrf_token %}
+    <img src="{{ workout.schema.url}}" class="w-50 rounded mx-auto d-block">
+    {{ form }}
+    <button class="btn btn-primary mt-2" type="submit">Edit</button>
+</form>
+</body>
+</html>
+

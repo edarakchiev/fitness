@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy, reverse
 from django.views.generic import TemplateView, ListView, CreateView, UpdateView, DeleteView
 
 from fitness.fitness_workout_app.models import Workout
@@ -11,7 +11,7 @@ class IndexView(ListView):
     context_object_name = 'workouts'
 
 
-class WorkoutDetailsView(ListView):
+class WorkoutDetailsView(DeleteView):
     model = Workout
     template_name = 'details_workout.html'
     context_object_name = 'workout'
@@ -27,10 +27,11 @@ class CreateWorkoutView(CreateView):
 class EditWorkoutView(UpdateView):
     model = Workout
     fields = '__all__'
-    template_name = 'create_workout.html'
+    template_name = 'edit_workout.html'
     success_url = reverse_lazy('index')
 
 
 class DeleteWorkoutView(DeleteView):
+    template_name = 'delete_wokout.html'
     model = Workout
-    success_url = 'index'
+    success_url = reverse_lazy('index')

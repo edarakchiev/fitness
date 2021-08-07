@@ -1,20 +1,23 @@
 {% extends 'base.html' %}
 {% block content %}
  <div class="text-center">
+    {% load static %}
         <h1>Hello, {{ request.user }}!</h1>
         <h5>This is your profile</h5>
-        {% if profile.profile_image %}
-            <img class="rounded-circle mb-3" src="{{ profile.profile_image.url }}" alt="" width="140"
+        {% if user.profile_image %}
+            <img class="rounded-circle mb-3" src="{{ user.profile_image.url }}" alt="" width="140"
                  height="140">
-{#        {% else %}#}
-{#            <img class="rounded-circle mb-3" src="{% static 'images/profile.webp' %}" alt="" width="140"#}
-{#                 height="140">#}
+        {% else %}
+            <img class="rounded-circle mb-3" src="{% static 'generic_user.png' %}" alt="" width="140"
+                 height="140">
         {% endif %}
         <div class="w-50 m-auto">
-            <form action="{% url 'profile details' %}" method="post" enctype="multipart/form-data">
+            <form action="{% url 'profile details' user.id %}" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
-                {{ form }}
-                <button class="btn btn-success">Update</button>
+
+                Name: {{ user.first_name }} {{ user.last_name }}
+
+                 <a href="{% url 'profile edit' user.id %}" class="btn btn-success">Edit Profile</a>
             </form>
         </div>
     </div>

@@ -13,9 +13,6 @@ class FitnessUser(AbstractBaseUser, PermissionsMixin):
     )
     USERNAME_FIELD = 'email'
     objects = FitnessUserManager()
-
-
-class Profile(models.Model):
     first_name = models.CharField(
         max_length=15,
     )
@@ -26,11 +23,24 @@ class Profile(models.Model):
         upload_to='profiles',
         blank=True,
     )
-    user = models.OneToOneField(
-        FitnessUser,
-        on_delete=models.CASCADE,
-        primary_key=True,
-    )
 
 
-from .signals import *
+# class Profile(models.Model):
+#     first_name = models.CharField(
+#         max_length=15,
+#     )
+#     last_name = models.CharField(
+#         max_length=15,
+#     )
+#     profile_image = models.ImageField(
+#         upload_to='profiles',
+#         blank=True,
+#     )
+#     user = models.OneToOneField(
+#         FitnessUser,
+#         on_delete=models.CASCADE,
+#         primary_key=True,
+#     )
+#
+#
+# from .signals import *

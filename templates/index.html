@@ -2,17 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Workouts</title>
+    <title>Fitness Workouts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <body>
-<a href="{% url 'create workout' %}" class="btn btn-primary">Create Workout</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-brand">FitnessWorkouts</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'index' %}">Home</a>
+                </li>
+                {% if not request.user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'log in' %}">Log in</a>
 
-{% for workout in workouts %}
-    <h1>
-        {{ workout.muscle_group }}
-        {{ workout.title }}
-        <a href="{% url 'workout details' workout.id %}" class="btn btn-primary">Details</a>
-    </h1>
-{% endfor %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'register' %}">Register</a>
+                    </li>
+
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'create workout' %}">Create workout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'profile details' %}">My Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'log out' %}">Log out</a>
+                    </li>
+                {% endif %}
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="text-center">Workouts</h1>
+    <div class="d-flex p-3">
+        {% for workout in workouts %}
+        <div class="card m-3" style="width: 18rem;">
+            <img class="card-img-top" src="{{ workout.image.url }}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{ workout.muscle_group}}</h5>
+                <p class="card-text">{{ workout.title }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="card-footer navbar-dark bg-dark footer fixed-bottom text-center">
+      <small class="text-light text-center">Fitness Workouts</small>
+    </div>
 </body>
 </html>
+

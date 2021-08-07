@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <div class="text-center">
+        <h1>Hello, {{ request.user }}!</h1>
+        <h5>This is your profile</h5>
+        {% if profile.profile_image %}
+            <img class="rounded-circle mb-3" src="{{ profile.profile_image.url }}" alt="" width="140"
+                 height="140">
+{#        {% else %}#}
+{#            <img class="rounded-circle mb-3" src="{% static 'images/profile.webp' %}" alt="" width="140"#}
+{#                 height="140">#}
+        {% endif %}
+        <div class="w-50 m-auto">
+            <form action="{% url 'profile details' %}" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form }}
+                <button class="btn btn-success">Update</button>
+            </form>
+        </div>
+    </div>
+    <hr>
+    {% if workouts %}
+        <h2 class='text-center'>Your Workouts</h2>
+        <div class="row">
+            <div class="row">
+                {% for workout in workouts %}
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="{{ workout.image.url }}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ workout.title }} {{ workout.muscle_group }}</h5>
+                                <p class="card-text">{{ workout.description }}</p>
+                                <p class="card-text"><strong>Owner: {{ request.user }}</strong></p>
+                                <a href="{% url 'workout details' workout.id %}" class="btn btn-primary">See details</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% else %}
+        <div class="text-center">
+            <h2>You have no Workouts</h2>
+            <a href="{% url 'create workout' %}" class="btn btn-success">Create workout</a>
+        </div>
+    {% endif %}
+</body>
+</html>

@@ -21,4 +21,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('fitness.fitness_workout_app.urls')),
+    path('account/', include('fitness.accounts.urls')),
     ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

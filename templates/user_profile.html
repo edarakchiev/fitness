@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
  <div class="text-center">
         <h1>Hello, {{ request.user }}!</h1>
         <h5>This is your profile</h5>
@@ -49,5 +44,4 @@
             <a href="{% url 'create workout' %}" class="btn btn-success">Create workout</a>
         </div>
     {% endif %}
-</body>
-</html>
+{% endblock %}

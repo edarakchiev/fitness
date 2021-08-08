@@ -33,7 +33,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">{{ workout.title }} {{ workout.muscle_group }}</h5>
                                 <p class="card-text">{{ workout.description }}</p>
-                                <p class="card-text"><strong>Owner: {{ request.user }}</strong></p>
+                                <p class="card-text"><strong>Owner e-mail: {{ request.user }}</strong></p>
                                 <a href="{% url 'workout details' workout.id %}" class="btn btn-primary">See details</a>
                             </div>
                         </div>

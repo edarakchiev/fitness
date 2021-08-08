@@ -17,6 +17,12 @@ class WorkoutDetailsView(LoginRequiredMixin, DeleteView):
     template_name = 'details_workout.html'
     context_object_name = 'workout'
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        workout = context['workout']
+        context['is_owner'] = workout.user == self.request.user
+        return context
+
 
 class CreateWorkoutView(LoginRequiredMixin, CreateView):
     model = Workout

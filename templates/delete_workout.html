@@ -2,6 +2,13 @@
 {% block content %}
 <form method="post">
     {% csrf_token %}
-    <input type="submit" value="Confirm" class="btn btn-danger"/>
+    <h1 class='text-center'>Delete Workouts</h1>
+    <h1 class='text-center'>Are you sure?</h1>
+    <ul>
+        <h2 class='text-center'>
+            <input type="submit" value="Yes" class="btn-lg btn-success"/>
+            <a href="{% url 'workout details' workout.id %}" class="btn-lg btn-danger">No</a>
+        </h2>
+    </ul>
 </form>
 {% endblock %}

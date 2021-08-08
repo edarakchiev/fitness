@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.urls import reverse_lazy, reverse
 from django.views.generic import TemplateView, ListView, CreateView, UpdateView, DeleteView
 
+from fitness.fitness_workout_app.forms import CreateWorkoutForm
 from fitness.fitness_workout_app.models import Workout
 
 
@@ -26,7 +27,8 @@ class WorkoutDetailsView(LoginRequiredMixin, DeleteView):
 
 class CreateWorkoutView(LoginRequiredMixin, CreateView):
     model = Workout
-    fields = ('muscle_group', 'title', 'schema', 'series', 'repetitions', 'description')
+    form_class = CreateWorkoutForm
+
     template_name = 'create_workout.html'
     success_url = reverse_lazy('index')
 

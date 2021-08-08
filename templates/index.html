@@ -5,12 +5,16 @@
     <div class="d-flex p-3">
         {% for workout in workouts %}
         <div class="card m-3" style="width: 18rem;">
+        {% if not request.user.is_authenticated %}
             <img class="card-img-top" src="{% static 'logo.png' %}" alt="Card image cap">
+        {% else %}
+            <img src="{{ workout.schema.url }}" class="card-img-top" alt="...">
+        {% endif %}
             <div class="card-body">
                 <h5 class="card-title">{{ workout.muscle_group}}</h5>
                 <p class="card-text">{{ workout.title }}</p>
                 {% if request.user.is_authenticated %}
-                    <a href="{% url 'workout details' workout.id %}" style="color:orange">Details</a>
+                    <a href="{% url 'workout details' workout.id %}" class="btn btn-primary">See details</a>
                 {% endif %}
 
             </div>

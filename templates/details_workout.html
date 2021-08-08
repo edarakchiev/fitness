@@ -6,7 +6,7 @@
     <li>Description: {{ workout.description }}</li>
     <li>Series: {{ workout.series }}</li>
     <li>Repetitions: {{ workout.repetitions }}</li>
-    {% if is_owner %}
+    {% if is_owner or request.user.is_superuser %}
         <a href="{% url 'edit workout' workout.id %}" class="btn btn-primary">Edit</a>
         <a href="{% url 'delete workout' workout.id %}" class="btn btn-danger">Delete</a>
     {% endif %}

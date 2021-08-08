@@ -34,7 +34,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'log out' %}">Log out</a>
                     </li>
+                    <li class="nav-item" style="right: auto">
+                    <div class="navbar-brand" >Welcome {{ user.first_name }} {{ user.last_name }}</div>
+                    </li>
                 {% endif %}
+
 
                 </li>
             </ul>

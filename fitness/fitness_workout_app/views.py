@@ -20,9 +20,15 @@ class WorkoutDetailsView(LoginRequiredMixin, DeleteView):
 
 class CreateWorkoutView(LoginRequiredMixin, CreateView):
     model = Workout
-    fields = '__all__'
+    fields = ('muscle_group', 'title', 'schema', 'series', 'repetitions', 'description')
     template_name = 'create_workout.html'
     success_url = reverse_lazy('index')
+
+    def form_valid(self, form):
+        workout = form.save(commit=False)
+        workout.user = self.request.user
+        workout.save()
+        return super().form_valid(form)
 
 
 class EditWorkoutView(UpdateView):
@@ -33,6 +39,6 @@ class EditWorkoutView(UpdateView):
 
 
 class DeleteWorkoutView(LoginRequiredMixin, DeleteView):
-    template_name = 'delete_wokout.html'
+    template_name = 'delete_workout.html'
     model = Workout
     success_url = reverse_lazy('index')

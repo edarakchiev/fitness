@@ -29,7 +29,7 @@
                 {% for workout in workouts %}
                     <div class="col-lg-4">
                         <div class="card" style="width: 18rem;">
-                            <img src="{{ workout.image.url }}" class="card-img-top" alt="...">
+                            <img src="{{ workout.schema.url }}" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">{{ workout.title }} {{ workout.muscle_group }}</h5>
                                 <p class="card-text">{{ workout.description }}</p>

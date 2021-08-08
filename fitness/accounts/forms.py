@@ -13,7 +13,7 @@ class LoginForm(AuthenticationForm):
     pass
 
 
-class RegistrationForm(UserCreationForm):
+class UserForm(UserCreationForm):
     class Meta:
         model = FitnessUser
         fields = ('first_name', 'last_name', 'email', 'profile_image')

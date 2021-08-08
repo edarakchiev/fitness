@@ -1,4 +1,8 @@
+from django.contrib.auth import get_user_model
 from django.db import models
+
+
+UserModel = get_user_model()
 
 
 class Workout(models.Model):
@@ -25,6 +29,9 @@ class Workout(models.Model):
     series = models.IntegerField()
     repetitions = models.IntegerField()
     description = models.TextField()
+    user = models.ForeignKey(
+        UserModel, on_delete=models.CASCADE
+    )
 
 
 class Like(models.Model):

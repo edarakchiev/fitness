@@ -5,7 +5,7 @@ from django.shortcuts import redirect, render
 from django.urls import reverse_lazy
 from django.views.generic import FormView, CreateView, UpdateView, DetailView
 
-from fitness.accounts.forms import LoginForm, RegistrationForm
+from fitness.accounts.forms import LoginForm, UserForm
 from fitness.accounts.models import  FitnessUser
 from fitness.fitness_workout_app.models import Workout
 
@@ -17,7 +17,7 @@ class LoginUserView(LoginView):
 
 
 class RegisterView(CreateView):
-    form_class = RegistrationForm
+    form_class = UserForm
     template_name = 'register_user.html'
     success_url = reverse_lazy('index')
 
@@ -35,17 +35,25 @@ def logout_user(request):
     return redirect('index')
 
 
-class EditProfile(LoginRequiredMixin, UpdateView):
+class EditProfile(UpdateView):
     model = FitnessUser
+    # form_class = RegistrationForm
     template_name = 'edit_profile.html'
     fields = ('first_name', 'last_name', 'profile_image',)
-    success_url = 'profile details'
+    success_url = 'index'
 
 
 class ProfileDetailsView(LoginRequiredMixin, DetailView):
     template_name = 'user_profile.html'
     model = FitnessUser
     context_object_name = 'user'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+
+        context['workouts'] = Workout.objects.filter(user_id=self.request.user.id)
+
+        return context
 
 
 # class ProfileDetailsView(LoginRequiredMixin, FormView):

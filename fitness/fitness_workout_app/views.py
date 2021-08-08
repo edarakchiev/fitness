@@ -39,9 +39,9 @@ class CreateWorkoutView(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
 
 
-class EditWorkoutView(UpdateView):
+class EditWorkoutView(LoginRequiredMixin, UpdateView):
     model = Workout
-    fields = '__all__'
+    form_class = CreateWorkoutForm
     template_name = 'edit_workout.html'
     success_url = reverse_lazy('index')
 

@@ -7,7 +7,8 @@
             <form action="{% url 'profile edit' user.id %}" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ form }}
-                <button class="btn btn-primary" type="submit">Edit</button>
+                <br>
+                <button class="btn btn-primary" type="submit">Save</button>
             </form>
 
         </div>

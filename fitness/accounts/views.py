@@ -3,9 +3,9 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.views import LoginView, LogoutView
 from django.shortcuts import redirect
 from django.urls import reverse_lazy
-from django.views.generic import CreateView, UpdateView, DetailView
+from django.views.generic import CreateView, UpdateView, DetailView, DeleteView
 
-from fitness.accounts.forms import LoginForm, UserForm
+from fitness.accounts.forms import LoginForm, UserForm, EditUserForm
 from fitness.accounts.models import  FitnessUser
 from fitness.fitness_workout_app.models import Workout
 
@@ -35,8 +35,8 @@ class LogoutUser(LogoutView):
 
 class EditProfile(UpdateView):
     model = FitnessUser
+    form_class = EditUserForm
     template_name = 'edit_profile.html'
-    fields = ('first_name', 'last_name', 'profile_image',)
     success_url = reverse_lazy('index')
 
 
@@ -52,3 +52,7 @@ class ProfileDetailsView(LoginRequiredMixin, DetailView):
         return context
 
 
+class DeleteUserView(LoginRequiredMixin, DeleteView):
+    template_name = 'delete_user.html'
+    model = FitnessUser
+    success_url = reverse_lazy('index')

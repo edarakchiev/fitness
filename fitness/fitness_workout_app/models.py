@@ -26,8 +26,8 @@ class Workout(models.Model):
     schema = models.ImageField(
         upload_to='schema',
     )
-    series = models.IntegerField()
-    repetitions = models.IntegerField()
+    series = models.PositiveIntegerField()
+    repetitions = models.PositiveIntegerField()
     description = models.TextField()
     user = models.ForeignKey(
         UserModel, on_delete=models.CASCADE

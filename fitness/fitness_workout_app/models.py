@@ -32,7 +32,3 @@ class Workout(models.Model):
     user = models.ForeignKey(
         UserModel, on_delete=models.CASCADE
     )
-
-
-class Like(models.Model):
-    workout = models.ForeignKey(Workout, on_delete=models.CASCADE)

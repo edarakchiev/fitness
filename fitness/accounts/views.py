@@ -24,6 +24,7 @@ class RegisterView(CreateView):
     def form_valid(self, form):
         result = super().form_valid(form)
         login(self.request, self.object)
+
         return result
 
 

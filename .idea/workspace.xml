@@ -2,21 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea92b7f-2bd4-476d-a108-63bccd057b74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fitness/fitness_workout_app/migrations/0002_auto_20210808_2203.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c8cdae0-4c99-4701-974f-6e1f09c8ec44.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c8cdae0-4c99-4701-974f-6e1f09c8ec44/entities/entities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c8cdae0-4c99-4701-974f-6e1f09c8ec44/entities/entities.dat.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c8cdae0-4c99-4701-974f-6e1f09c8ec44/entities/entities.dat.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c8cdae0-4c99-4701-974f-6e1f09c8ec44/entities/entities.dat.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c8cdae0-4c99-4701-974f-6e1f09c8ec44/entities/entities.dat.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c8cdae0-4c99-4701-974f-6e1f09c8ec44/entities/entities.dat_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c8cdae0-4c99-4701-974f-6e1f09c8ec44/entities/entities.dat_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e873a04-7069-4543-a3b8-3393412f9dd0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e873a04-7069-4543-a3b8-3393412f9dd0/entities/entities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e873a04-7069-4543-a3b8-3393412f9dd0/entities/entities.dat.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e873a04-7069-4543-a3b8-3393412f9dd0/entities/entities.dat.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e873a04-7069-4543-a3b8-3393412f9dd0/entities/entities.dat.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e873a04-7069-4543-a3b8-3393412f9dd0/entities/entities.dat.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e873a04-7069-4543-a3b8-3393412f9dd0/entities/entities.dat_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e873a04-7069-4543-a3b8-3393412f9dd0/entities/entities.dat_i.len" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/accounts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/accounts/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/accounts/migrations/0002_auto_20210807_2001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/accounts/migrations/0003_auto_20210807_2259.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/fitness_workout_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/fitness_workout_app/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/fitness_workout_app/migrations/0002_auto_20210808_2203.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness/fitness_workout_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/fitness_workout_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness/fitness_workout_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/fitness_workout_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydatabase" beforeDir="false" afterPath="$PROJECT_DIR$/mydatabase" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/create_workout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create_workout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/edit_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edit_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles/105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles/105_e5u8bZE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles/135.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles/135_3RLW4l7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles/139.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles/1572685473797.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles/5e804a893ad14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles/82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydatabase" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +61,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1wMxAYgPA1jMK600EWEHv8IHih9" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -47,7 +79,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="postgresql&#10;sqlite" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -100,6 +132,11 @@
       <workItem from="1628320585462" duration="32617000" />
       <workItem from="1628402818569" duration="5089000" />
       <workItem from="1628431531087" duration="13030000" />
+      <workItem from="1628451497278" duration="831000" />
+      <workItem from="1628453062648" duration="35000" />
+      <workItem from="1628518872539" duration="2591000" />
+      <workItem from="1628521526414" duration="1234000" />
+      <workItem from="1628523000459" duration="521000" />
     </task>
     <servers />
   </component>

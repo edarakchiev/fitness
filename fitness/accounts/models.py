@@ -23,24 +23,3 @@ class FitnessUser(AbstractBaseUser, PermissionsMixin):
         upload_to='profiles',
         blank=True,
     )
-
-
-# class Profile(models.Model):
-#     first_name = models.CharField(
-#         max_length=15,
-#     )
-#     last_name = models.CharField(
-#         max_length=15,
-#     )
-#     profile_image = models.ImageField(
-#         upload_to='profiles',
-#         blank=True,
-#     )
-#     user = models.OneToOneField(
-#         FitnessUser,
-#         on_delete=models.CASCADE,
-#         primary_key=True,
-#     )
-#
-#
-# from .signals import *

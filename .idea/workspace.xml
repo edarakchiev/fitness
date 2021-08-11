@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea92b7f-2bd4-476d-a108-63bccd057b74" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/entities/entities.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/entities/entities.dat.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/entities/entities.dat.values" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/entities/entities.dat.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/entities/entities.dat.values.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/entities/entities.dat_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/entities/entities.dat_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/storage_v2/_src_/database/fitness_db.NSIupQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/storage_v2/_src_/database/fitness_db.NSIupQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/storage_v2/_src_/database/fitness_db.NSIupQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/storage_v2/_src_/database/fitness_db.NSIupQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9765b47e-8a24-4549-b062-339f73c49576/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/base/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/base/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/workouts/test_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/workouts/test_view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +63,7 @@
       <recent name="C:\Users\Teo\Desktop\Emo\Project\fitness\fitness" />
     </key>
   </component>
-  <component name="RunManager" selected="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest.test_indexView_when_userIsLoggedIn">
+  <component name="RunManager" selected="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest">
     <configuration name="Test: tests.workouts.test_view.WorkoutDetailsTest" type="DjangoTestsConfigurationType" temporary="true">
       <module name="fitness" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +84,7 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: tests.workouts.test_view.WorkoutDetailsTest.test_indexView_when_userIsLoggedIn" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: tests.workouts.test_view.WorkoutDetailsTest.test_CreateTemplateUsed" type="DjangoTestsConfigurationType" temporary="true">
       <module name="fitness" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,14 +97,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="tests.workouts.test_view.WorkoutDetailsTest.test_indexView_when_userIsLoggedIn" />
+      <option name="TARGET" value="tests.workouts.test_view.WorkoutDetailsTest.test_CreateTemplateUsed" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: tests.workouts.test_view.WorkoutDetailsTest.test_workoutDdetails_whenUserIsOwner" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: tests.workouts.test_view.WorkoutDetailsTest.test_createView" type="DjangoTestsConfigurationType" temporary="true">
       <module name="fitness" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,14 +117,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="tests.workouts.test_view.WorkoutDetailsTest.test_workoutDdetails_whenUserIsOwner" />
+      <option name="TARGET" value="tests.workouts.test_view.WorkoutDetailsTest.test_createView" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: tests.workouts.test_view.WorkoutDetailsTest.test_workoutDetails_whenUserIsNotOwner" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: tests.workouts.test_view.WorkoutDetailsTest.test_deleteWorkout" type="DjangoTestsConfigurationType" temporary="true">
       <module name="fitness" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,14 +137,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="tests.workouts.test_view.WorkoutDetailsTest.test_workoutDetails_whenUserIsNotOwner" />
+      <option name="TARGET" value="tests.workouts.test_view.WorkoutDetailsTest.test_deleteWorkout" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: tests.workouts.test_view.WorkoutDetailsTest.test_workout_details" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: tests.workouts.test_view.WorkoutDetailsTest.test_editView" type="DjangoTestsConfigurationType" temporary="true">
       <module name="fitness" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,7 +157,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="tests.workouts.test_view.WorkoutDetailsTest.test_workout_details" />
+      <option name="TARGET" value="tests.workouts.test_view.WorkoutDetailsTest.test_editView" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -203,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest.test_indexView_when_userIsLoggedIn" />
         <item itemvalue="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest" />
-        <item itemvalue="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest.test_workoutDetails_whenUserIsNotOwner" />
-        <item itemvalue="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest.test_workoutDdetails_whenUserIsOwner" />
-        <item itemvalue="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest.test_workout_details" />
+        <item itemvalue="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest.test_createView" />
+        <item itemvalue="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest.test_editView" />
+        <item itemvalue="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest.test_deleteWorkout" />
+        <item itemvalue="Django tests.Test: tests.workouts.test_view.WorkoutDetailsTest.test_CreateTemplateUsed" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +216,8 @@
       <workItem from="1628521526414" duration="1234000" />
       <workItem from="1628523000459" duration="2741000" />
       <workItem from="1628528902367" duration="5696000" />
+      <workItem from="1628534665710" duration="1127000" />
+      <workItem from="1628696507387" duration="14864000" />
     </task>
     <servers />
   </component>
@@ -258,25 +247,34 @@
           <line>11</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/workouts/test_view.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest Coverage Results" MODIFIED="1628534123521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_indexView_when_userIsLoggedIn.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_indexView_when_userIsLoggedIn Coverage Results" MODIFIED="1628534548939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest Coverage Results" MODIFIED="1628713270727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_statusCodeCreate_whenNotLoggedInUser.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_statusCodeCreate_whenNotLoggedInUser Coverage Results" MODIFIED="1628709977406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_accounts_test_views_SimpleTest_test_True.coverage" NAME="Test: tests.accounts.test_views.SimpleTest.test_True Coverage Results" MODIFIED="1628528977952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_createView.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_createView Coverage Results" MODIFIED="1628713227169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_workoutDetails_whenUserIsNotOwner.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_workoutDetails_whenUserIsNotOwner Coverage Results" MODIFIED="1628534114779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_workout_details.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_workout_details Coverage Results" MODIFIED="1628533789669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/fitness$Test__tests_base_tests_FitnessTestCase.coverage" NAME="Test: tests.base.tests.FitnessTestCase Coverage Results" MODIFIED="1628524469559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/fitness$Test__tests_accounts_test_views_UserDetailsTest.coverage" NAME="Test: tests.accounts.test_views.UserDetailsTest Coverage Results" MODIFIED="1628529298102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_workoutDdetails_whenUserIsOwner.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_workoutDdetails_whenUserIsOwner Coverage Results" MODIFIED="1628533840621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/fitness$Test__tests_accounts_test_views_SimpleTest_test_True.coverage" NAME="Test: tests.accounts.test_views.SimpleTest.test_True Coverage Results" MODIFIED="1628528977952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_invalid_input_means_nothing_saved_to_db.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_invalid_input_means_nothing_saved_to_db Coverage Results" MODIFIED="1628697782832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/fitness$Test__tests_accounts_test_views_ProfileDetailsTest_test_getDetails_whenLoggedInUserWithNoPets_shouldGetDetailsWithNoPets.coverage" NAME="Test: tests.accounts.test_views.ProfileDetailsTest.test_getDetails_whenLoggedInUserWithNoPets_shouldGetDetailsWithNoPets Coverage Results" MODIFIED="1628524547774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/fitness$Test__tests_accounts_test_views_UserDetailsTest_test_getDetails__userLoggedIn.coverage" NAME="Test: tests.accounts.test_views.UserDetailsTest.test_getDetails__userLoggedIn Coverage Results" MODIFIED="1628531506576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_published_post.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_published_post Coverage Results" MODIFIED="1628705817560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_details_statusCode.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_details_statusCode Coverage Results" MODIFIED="1628706228917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_numberOfWorkouts.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_numberOfWorkouts Coverage Results" MODIFIED="1628697698394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_statusCodeEdit_whenLoggedInUser.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_statusCodeEdit_whenLoggedInUser Coverage Results" MODIFIED="1628710774135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_templateUsed.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_templateUsed Coverage Results" MODIFIED="1628697583194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_status_code_create.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_status_code_create Coverage Results" MODIFIED="1628709851630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_deleteWorkout.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_deleteWorkout Coverage Results" MODIFIED="1628712054240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/fitness$Test__tests_accounts_test_views.coverage" NAME="Test: tests.accounts.test_views Coverage Results" MODIFIED="1628529110643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_indexView_when_userIsLoggedIn.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_indexView_when_userIsLoggedIn Coverage Results" MODIFIED="1628534727265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_create_workout.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_create_workout Coverage Results" MODIFIED="1628697032616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_base_tests_FitnessTestCase.coverage" NAME="Test: tests.base.tests.FitnessTestCase Coverage Results" MODIFIED="1628524469559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_editView.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_editView Coverage Results" MODIFIED="1628713011294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_create_workout_whenUserIsNotLoggedin.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_create_workout_whenUserIsNotLoggedin Coverage Results" MODIFIED="1628697473917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_workouts_test_view_WorkoutDetailsTest_test_CreateTemplateUsed.coverage" NAME="Test: tests.workouts.test_view.WorkoutDetailsTest.test_CreateTemplateUsed Coverage Results" MODIFIED="1628710822277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fitness$Test__tests_accounts_test_views_UserDetailsTest_test_getDetails__userLoggedIn.coverage" NAME="Test: tests.accounts.test_views.UserDetailsTest.test_getDetails__userLoggedIn Coverage Results" MODIFIED="1628531506576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

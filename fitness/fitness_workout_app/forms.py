@@ -8,3 +8,5 @@ class CreateWorkoutForm(BootstrapFormMixin, ModelForm):
     class Meta:
         model = Workout
         fields = ('muscle_group', 'title', 'schema', 'series', 'repetitions', 'description')
+
+

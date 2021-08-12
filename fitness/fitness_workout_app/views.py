@@ -1,4 +1,5 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.db.models import Q, query
 from django.urls import reverse_lazy
 from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 
@@ -49,3 +50,15 @@ class DeleteWorkoutView(LoginRequiredMixin, DeleteView):
     template_name = 'delete_workout.html'
     model = Workout
     success_url = reverse_lazy('index')
+
+
+class SearchResultsView(LoginRequiredMixin, ListView):
+    model = Workout
+    template_name = 'search.html'
+
+    def get_queryset(self):
+        query = self.request.GET.get('q')
+        object_list = Workout.objects.filter(
+            Q(muscle_group__icontains=query)
+        )
+        return object_list

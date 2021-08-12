@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea92b7f-2bd4-476d-a108-63bccd057b74" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee4c7e8b-22b7-4cd2-9ed6-cd4e1ef64f8a/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness/accounts/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness/fitness_workout_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/fitness_workout_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/fitness_workout_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/fitness_workout_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/fitness_workout_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness/fitness_workout_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/fitness_workout_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/workouts/test_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/workouts/test_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -223,7 +215,7 @@
       <workItem from="1628528902367" duration="5696000" />
       <workItem from="1628534665710" duration="1127000" />
       <workItem from="1628696507387" duration="14864000" />
-      <workItem from="1628781149441" duration="9291000" />
+      <workItem from="1628781149441" duration="15503000" />
     </task>
     <servers />
   </component>

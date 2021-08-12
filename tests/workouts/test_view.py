@@ -5,7 +5,7 @@ from tests.base.mixins import WorkoutTestUtils
 from tests.base.tests import FitnessTestCase
 
 
-class WorkoutDetailsTest(WorkoutTestUtils, FitnessTestCase):
+class WorkoutTest(WorkoutTestUtils, FitnessTestCase):
 
     def test_workoutDetails_whenUserIsOwner(self):
         self.client.force_login(self.user)

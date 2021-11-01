@@ -6,7 +6,7 @@ from django.urls import reverse_lazy
 from django.views.generic import CreateView, UpdateView, DetailView, DeleteView
 
 from fitness.accounts.forms import LoginForm, UserForm, EditUserForm
-from fitness.accounts.models import  FitnessUser
+from fitness.accounts.models import FitnessUser
 from fitness.fitness_workout_app.models import Workout
 
 

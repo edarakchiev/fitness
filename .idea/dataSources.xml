@@ -8,7 +8,11 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+<<<<<<< HEAD
     <data-source source="LOCAL" name="Django default" uuid="b636194f-0bd0-40c0-856c-681a711497be">
+=======
+    <data-source source="LOCAL" name="Django default" uuid="73db6add-c9db-4a74-86ff-03cb5e7a28ab">
+>>>>>>> e6a88cddb9cb1e26d6c78c572e8556b36c12613b
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
@@ -17,6 +21,7 @@
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/fitness</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+<<<<<<< HEAD
     <data-source source="LOCAL" name="identifier.sqlite" uuid="bb1a51de-ce1f-4434-a863-7e583038640e">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
@@ -31,5 +36,7 @@
       <jdbc-url>jdbc:sqlite:identifier.sqlite</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+=======
+>>>>>>> e6a88cddb9cb1e26d6c78c572e8556b36c12613b
   </component>
 </project>

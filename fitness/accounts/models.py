@@ -13,11 +13,14 @@ class FitnessUser(AbstractBaseUser, PermissionsMixin):
     )
     USERNAME_FIELD = 'email'
     objects = FitnessUserManager()
+
     first_name = models.CharField(
         max_length=15,
+        blank=True,
     )
     last_name = models.CharField(
         max_length=15,
+        blank=True,
     )
     profile_image = models.ImageField(
         upload_to='profiles',

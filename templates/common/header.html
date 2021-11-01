@@ -34,7 +34,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'log out' %}">Log out</a>
                     </li>
-                    <div class="navbar-text" >Welcome {{ user.first_name }} {{ user.last_name }}</div>
+                    <li>
+                    <div class="navbar-text">Welcome {{ user.first_name }} {{ user.last_name }} &nbsp;</div>
+                    </li>
+                    <form action="{% url 'search results' %}" method="get">
+                        <input name="q" type="text" placeholder="Search...">
+                    </form>
 
 
                 {% endif %}

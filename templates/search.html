@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+    <h1 class="text-center">Workouts</h1>
+    <div class="d-flex p-3">
+        {% for workout in object_list %}
+        <div class="card m-3" style="width: 18rem;">
+            <img src="{{ workout.schema.url }}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ workout.muscle_group}}</h5>
+                <p class="card-text">{{ workout.title }}</p>
+                <a href="{% url 'workout details' workout.id %}" class="btn btn-primary">See details</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}

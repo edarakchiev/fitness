@@ -12,7 +12,7 @@ class LoginForm(BootstrapFormMixin, AuthenticationForm):
 class UserForm(BootstrapFormMixin, UserCreationForm):
     class Meta:
         model = FitnessUser
-        fields = ('first_name', 'last_name', 'email', 'profile_image')
+        fields = ('first_name', 'last_name', 'email')
 
 
 class EditUserForm(BootstrapFormMixin, ModelForm):
